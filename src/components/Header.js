@@ -5,7 +5,6 @@ import Button from './Button'
 
 const Header = ({title,setFormState, showForm}) =>{
 
-  const [buttonText, setButtonText] = useState('')
 
   const onClick = () =>{
     setFormState()

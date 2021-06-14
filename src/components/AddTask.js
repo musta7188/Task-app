@@ -15,7 +15,7 @@ const AddTask = ({addTask}) =>{
     }
 
 
-    addTask({id:Math.floor(Math.random() * 10000), text,day, remainder})
+    addTask({text,day, remainder})
     setText('')
     setDay('')
     setRemainder(false)
